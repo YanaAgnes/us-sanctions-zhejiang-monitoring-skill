@@ -1,4 +1,4 @@
 interface:
   display_name: "US Sanctions Zhejiang Monitoring"
-  short_description: "Track US lists for Zhejiang hits."
+  short_description: "监测美国清单中的涉浙命中。"
   default_prompt: "Use this skill to collect U.S. sanctions/control-list records, distinguish OFAC/BIS/DoD/FCC list effects, identify Zhejiang-linked entities or people, and compare results against reports."
