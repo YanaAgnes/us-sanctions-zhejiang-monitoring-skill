@@ -3,9 +3,11 @@
   "display_name": "US Sanctions Zhejiang Monitoring",
   "version": "0.1.0",
   "language": "zh-CN",
-  "description": "Collect, normalize, and compare U.S. sanctions and control-list records for Chinese or Zhejiang-linked people and entities, with strict list-type separation and traceable source links.",
+  "description": "用于美国制裁与管制清单采集、规范化、涉浙命中识别、清单口径区分和可追溯来源比对。",
   "entrypoints": {
     "codex": "codex/us-sanctions-zhejiang-monitoring/SKILL.md",
+    "claude_code": "claude-code/us-sanctions-zhejiang-monitoring/SKILL.md",
+    "cloud_code": "cloud-code/us-sanctions-zhejiang-monitoring/SKILL.md",
     "work_buddy": "work-buddy/skill.md",
     "universal_markdown": "universal/US_SANCTIONS_ZHEJIANG_SKILL.md"
   },
@@ -14,6 +16,16 @@
       "agent": "Codex",
       "format": "skill-folder",
       "install_hint": "Copy codex/us-sanctions-zhejiang-monitoring into ~/.codex/skills/."
+    },
+    {
+      "agent": "Claude Code",
+      "format": "skill-folder",
+      "install_hint": "Copy claude-code/us-sanctions-zhejiang-monitoring into the agent skills directory used by the local Claude Code setup."
+    },
+    {
+      "agent": "Cloud Code",
+      "format": "skill-folder",
+      "install_hint": "Use cloud-code/us-sanctions-zhejiang-monitoring if the environment expects a SKILL.md folder."
     },
     {
       "agent": "Work Buddy",
@@ -26,6 +38,7 @@
       "install_hint": "Use universal/US_SANCTIONS_ZHEJIANG_SKILL.md as a system or project instruction."
     }
   ],
+  "source_skill_path": "/Users/agnes/.codex/skills/us-sanctions-zhejiang-monitoring",
   "created_from_thread": "USARuleListDetect",
   "created_date": "2026-06-24",
   "stability": "draft"
