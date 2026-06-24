@@ -1,6 +1,6 @@
 ---
 name: us-sanctions-zhejiang-monitoring
-description: Collect, normalize, and compare U.S. sanctions and control-list records for Chinese or Zhejiang-linked people and entities. Use when the task involves OFAC SDN, BIS Entity List, DoD 1260H/CMC, NS-CMIC, FCC Covered List, State/ISN, China/Hong Kong entity matching, Zhejiang hit detection, sanctions-reason analysis, Excel/Word comparison, or meeting/report preparation for涉浙企业制裁监测.
+description: 适用于处理美国制裁与管制清单相关任务，尤其是 OFAC SDN、BIS Entity List、DoD 1260H/CMC、NS-CMIC、FCC Covered List、State/ISN 等清单的中国/香港主体匹配、浙江命中识别、制裁原因分析、清单口径区分、Excel/Word 差异比对，以及涉浙企业制裁监测会议或报告准备。
 ---
 
 # U.S. Sanctions Zhejiang Monitoring
