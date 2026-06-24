@@ -1,0 +1,18 @@
+{
+  "name": "us-sanctions-zhejiang-monitoring",
+  "title": "US Sanctions Zhejiang Monitoring",
+  "version": "0.1.0",
+  "description": "美国制裁与管制清单采集、涉浙命中识别、清单口径区分、Word/Excel差异比对。",
+  "triggers": [
+    "OFAC SDN",
+    "BIS Entity List",
+    "DoD 1260H",
+    "CMC清单",
+    "FCC Covered List",
+    "涉浙企业制裁",
+    "浙江命中识别",
+    "制裁名单比对"
+  ],
+  "entry": "skill.md",
+  "language": "zh-CN"
+}
