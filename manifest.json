@@ -1,0 +1,32 @@
+{
+  "name": "us-sanctions-zhejiang-monitoring",
+  "display_name": "US Sanctions Zhejiang Monitoring",
+  "version": "0.1.0",
+  "language": "zh-CN",
+  "description": "Collect, normalize, and compare U.S. sanctions and control-list records for Chinese or Zhejiang-linked people and entities, with strict list-type separation and traceable source links.",
+  "entrypoints": {
+    "codex": "codex/us-sanctions-zhejiang-monitoring/SKILL.md",
+    "work_buddy": "work-buddy/skill.md",
+    "universal_markdown": "universal/US_SANCTIONS_ZHEJIANG_SKILL.md"
+  },
+  "compatible_with": [
+    {
+      "agent": "Codex",
+      "format": "skill-folder",
+      "install_hint": "Copy codex/us-sanctions-zhejiang-monitoring into ~/.codex/skills/."
+    },
+    {
+      "agent": "Work Buddy",
+      "format": "single-markdown-skill",
+      "install_hint": "Import or paste work-buddy/skill.md into the Work Buddy custom skill or agent-instruction interface."
+    },
+    {
+      "agent": "Generic agents",
+      "format": "markdown-prompt",
+      "install_hint": "Use universal/US_SANCTIONS_ZHEJIANG_SKILL.md as a system or project instruction."
+    }
+  ],
+  "created_from_thread": "USARuleListDetect",
+  "created_date": "2026-06-24",
+  "stability": "draft"
+}
